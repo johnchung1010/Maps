@@ -1,0 +1,11 @@
+1. What string did you input that successfully cleared the database? How did you figure out that this was the correct string to input?
+
+The string that cleared the database was "get id = 1; DROP TABLE soldier". This command injected a DROP TABLE request right after a condition. To figure out which table to drop, another command had to be run. The string "get id = 1; SELECT * FROM sqlite_master" returned the table name which we found out was "solider". This allowed us to run the DROP query on the soldier table to wipe the database.
+
+2. Keep playing with the database. What else were you able to get the app to do?
+
+By exploiting the "get" command, we found a way to inject nearly any type of SQL command into the program. For example, the command "get id = 1; SELECT * FROM soldier" returned the entire solider table. Also, we could use a CREATE TABLE request in this "get" command to create new tables within the database. A possible command for this would be: "get id = 1; CREATE TABLE test (id INTEGER PRIMARY KEY )"
+
+3. How might you ensure that SQL injections can’t occur on your own software?
+
+To protect our own software from SQL injections, one simple thing we can do is use parameterized queries. This can be done using the .setString, .setBoolean, .setInt, etc. methods. Using these methods, string concatenation will not have to be used within SQL query statements, and the code would be protected from injections. Another prevention technique for SQL injections is manually cleaning the input data. For example, the program could check for semicolons or other characters which could be potentially problematic to prevent injections from occurring.

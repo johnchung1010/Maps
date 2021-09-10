@@ -1,0 +1,5 @@
+INPUT
+stars data/stars/MOCK_DATA.csv
+OUTPUT
+ERROR: Invalid input file. Incorrect header.
+END

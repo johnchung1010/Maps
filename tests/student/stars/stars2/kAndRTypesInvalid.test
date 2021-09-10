@@ -1,0 +1,11 @@
+INPUT
+stars data/stars/ten-star.csv
+neighbors 1.2 "Sol"
+neighbors one "Sol"
+radius five "Sol"
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+ERROR: "k" must be a non-negative integer.
+ERROR: "k" must be a non-negative integer.
+ERROR: Radius must be a non-negative number.
+END

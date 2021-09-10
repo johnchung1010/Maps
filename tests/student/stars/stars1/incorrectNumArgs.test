@@ -1,0 +1,13 @@
+INPUT
+stars data/stars/ten-star.csv
+naive_neighbors 5
+naive_neighbors 1 2 3 4 5
+naive_radius
+stars data/stars/one-star.csv data/stars/ten-star.csv
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+ERROR: Incorrect number of arguments.
+ERROR: Incorrect number of arguments.
+ERROR: Incorrect number of arguments.
+ERROR: Incorrect number of arguments.
+END

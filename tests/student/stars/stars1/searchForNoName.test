@@ -1,0 +1,9 @@
+INPUT
+stars data/stars/ten-star.csv
+naive_neighbors 5 ""
+naive_radius 5 ""
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+ERROR: Must provide the name of a star.
+ERROR: Must provide the name of a star.
+END

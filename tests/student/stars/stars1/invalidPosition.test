@@ -1,0 +1,9 @@
+INPUT
+stars data/stars/ten-star.csv
+naive_neighbors 5 one two three
+naive_radius 5 one two three
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+ERROR: The x, y, and z coordinates must be numbers.
+ERROR: The x, y, and z coordinates must be numbers.
+END

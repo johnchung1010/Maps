@@ -1,0 +1,9 @@
+INPUT
+stars data/stars/ten-star.csv
+neighbors 5 "Non-existent"
+radius 5 "Non-existent"
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+ERROR: Name of star doesn't match any stars in the file.
+ERROR: Name of star doesn't match any stars in the file.
+END

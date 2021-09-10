@@ -1,0 +1,7 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+route "Street" 0 "Cross street" 1
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR: Street names not enclosed in quotes or inputs for latitude and longitude are not numbers.
+END

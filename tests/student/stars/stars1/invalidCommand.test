@@ -1,0 +1,5 @@
+INPUT
+invalid command
+OUTPUT
+ERROR: "invalid" is an invalid command.
+END

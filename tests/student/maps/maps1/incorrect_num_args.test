@@ -1,0 +1,11 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+ways 1 2 3 4 5
+route
+nearest 5
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR: Incorrect number of arguments.
+ERROR: Incorrect number of arguments.
+ERROR: Incorrect number of arguments.
+END
